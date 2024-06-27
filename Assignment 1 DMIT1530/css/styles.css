@@ -1,0 +1,467 @@
+body {
+  font-family: Arial, sans-serif;
+  
+ 
+}
+
+.container {
+  max-width: 960px; 
+  margin: 0 auto;
+  padding: 0 1.25rem;
+  display: flex;
+}
+
+.logo {
+  color: #00008b;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+justify-content: flex-end;
+}
+
+nav li {
+  margin-right: 1.25rem;
+}
+
+nav a {
+  color: #00008b;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ccc; 
+}
+
+main section{
+  
+  padding: 1rem;
+  margin: 2rem 0;
+ 
+  
+  
+ display: inline-block;
+
+}
+
+main img{
+  width: auto;
+  height: 18.75rem;
+}
+
+section img {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+
+ 
+  
+}
+
+h3 {
+  display: grid;
+  position: relative;
+  left: 20%;
+
+  color: white;
+ 
+    border: 2px solid  #00008b;
+    background-color:  #00008b;
+padding-left: 0.625rem;
+margin-bottom: -31.25rem;
+margin-top: -0.438rem;
+  
+
+}
+
+
+
+
+
+h2 {
+  justify-content: center;
+  padding-bottom: 1rem;
+  display: flex;
+  padding-top: 2.813rem;
+}
+
+.energy-box img{
+  
+  height: 9.813rem;
+    width: 25rem;
+    margin-right: 1.25rem;
+}
+
+.energy-box{
+  margin-left: 18.75rem;
+  width: 70%;
+  display: flex;
+}
+
+
+
+.home-box{
+  display: flex;
+  flex-direction: row-reverse;
+  width: 70%;
+  margin-left: 17.688rem;
+  margin-bottom: 1.25rem;
+}
+
+.image {
+ position: static;
+ width: 25rem;
+ height: 9.813rem;
+}
+
+.help{
+  background-color: #D3D3D3;
+}
+.text-container{
+  
+    display: inline-block;
+    margin-right:  0.625rem;
+    vertical-align: top;
+  
+}
+
+
+
+
+.home-box h2{
+  display: flex;
+  justify-content: center;
+}
+
+.button{
+  margin-top:  0.625rem;
+}
+.footer h2{
+  border: #D3D3D3 solid  0.625rem;
+  background-color: #D3D3D3;
+
+}
+.footer{
+  display: flex;
+  background-color: #D3D3D3;
+  justify-content: center;
+  padding-bottom: 1.25rem;
+}
+.help-section {
+  text-align: center;
+  margin: 0.625rem;
+  padding: 0.938rem;
+  background-color: white; 
+}
+
+.help-section h3 {
+  font-weight: bold;
+  margin-bottom: 0.625rem;
+}
+
+.help-section a {
+  text-decoration: none;
+  color: #00008b;
+  font-weight: bold;
+}
+.bold-paragraph {
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #ADD8E6;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.com-box{
+  display: block;
+  
+  width: 65%;
+  margin: 0 auto;
+}
+
+  
+
+.links a {
+color:  #00008b;
+  text-decoration: none;
+}
+
+.links a:hover {
+  
+  color: green;
+}
+.links{
+  gap: 15px;
+  display: flex;
+}
+.building-container {
+  
+  background-image: url("../img/building-stronger.png"); 
+  background-size: cover;
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.together-text {
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 1.25rem;
+  
+  
+  width: 37.5rem;
+  text-align: center;
+  margin: 0.938rem;
+  margin-right: 21.875rem;
+}
+
+.together-text a{
+  margin-right: 13.75rem;
+}
+.building-container h2 {
+  
+  margin-bottom: 0.625rem;
+  color: black;
+}
+
+
+.menu-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ADD8E6;
+  
+  padding: 0.625rem 0.625rem;
+
+}
+
+.menu-item {
+  background-color: white;
+  border: 1px solid lightgray;
+  padding: 0.938rem 1.563rem;
+  margin: 0 0.625rem;
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+  border-radius: 0.313rem;
+}
+
+
+
+.numbers-box{
+  text-align: center;
+    width: 25rem;
+    margin: 0 auto;
+    padding: 1.25rem;
+    border: 0.063rem solid #ccc;
+    border-radius: 0.313rem;
+    background-color: #D3D3D3;
+  
+}
+.numbers-box p{
+  text-align: center;
+  
+}
+.numbers {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 0.625;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+.numbers-box button{
+ background-color: #00008b;
+ color: white;
+
+}
+
+.numbers-box h2{
+  font-size: 2.125rem;
+}
+
+
+.top-bar {
+  background-color: #00008b;
+  color: white;
+  padding: 0.313rem;
+  text-align: center;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  
+  padding: 0 10px;
+  border-right: 1px solid white;
+}
+
+.top-bar a:last-child {
+  border-right: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1.25rem;
+  background-color: white;
+ 
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #00008b;
+}
+
+.nav-links a {
+  color: #00008b;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.chart div {
+  font: 0.75rem sans-serif;
+  background-color: #750CE8;
+  text-align: right;
+  padding: 0.188rem;
+  margin: 0.063rem;
+  color: white;
+}
+
+.pie-chart{background:radial-gradient(circle closest-side,#fff 0,#fff 45.14%,transparent 45.14%,transparent 61%,#fff 0),conic-gradient(from 22deg,#FFFF00 0,#FFFF00 38%,#808080 0,#808080 61%,#000080 0,#000080 77%,#59a14f 0,#59a14f 87%,#59a14f 0,#59a14f 93%,#add8e6 0,#add8e6 100%);position:relative;width:500px;min-height:350px;margin:0;}.pie-chart h2{position:absolute;margin:1rem}.pie-chart cite{position:absolute;bottom:0;font-size:80%;padding:1rem;color:gray}.pie-chart figcaption{position:absolute;bottom:1em;right:1em;font-size:smaller;text-align:right}.pie-chart span:after{display:inline-block;content:"";width:.8em;height:.8em;margin-left:.4em;height:.8em;background:currentColor}
+
+.pie{
+  display: flex;
+  flex: 1;
+  margin-right: 0.75rem;
+}
+
+.stat-box{
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+
+
+}
+
+.txt-box {
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+
+.finn-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 7.5rem;
+}
+
+.button1{
+  background-color: #ADD8E6;
+ color: black;
+ margin-top: 20px;
+ 
+ 
+}
+
+.menu-item:hover{
+  background-color: blue;
+  color: #fff;
+}
+
+.nav-links:hover{
+  text-decoration: underline;
+  color: #59a14f;
+
+}
+
+.nav-links a:hover{
+  color: #59a14f;
+}
+
+.button:hover{
+  color: #59a14f;
+}
+
+h3{cursor: pointer;}
+
+h3 :hover{
+  color: white;
+
+}
+
+.top-bar a:hover{
+  background-color: #59a14f;
+}
+
+.community-box img :nth-child(2){
+  height: 400px;
+}
+
+.energy-box a{
+  color: blue;
+}
+
+.home-box a{
+  color: blue;
+}
+
+.together-text a:hover{
+  color: #59a14f;
+  
+}
+.together-text a{
+  color: #000080;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 320px) {
+  .header{
+  flex-direction:column ;
+
+}
+
+.nav-links{
+  flex-direction:column ;
+}
+
+.menu-container{
+  flex-direction:column ;
+}
+
+
+.wide-flex{
+  display: flex;
+flex-direction: column;
+}
+ 
+}
+
+
+
+
+
+/* Medium View */
+@media only screen and (max-width: 768px) {
+
+
+
+  .wide-flex{
+    display: flex;
+  flex-direction: row;
+  }
+   
+}
+
